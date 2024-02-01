@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+*.sqlite3
+*.log
+db.sqlite3
+
+# Static files (usually collected by Django's `collectstatic` management command)
+/static/
+
+# Media files (uploaded by users, typically stored in the `MEDIA_ROOT` directory)
+/media/
+
+# Virtual environment
+venv/
+env/
+
+# Ignore .env files containing sensitive information
+.env
+
+# Ignore local settings
+settings_local.py
+
+# Ignore system files
+.DS_Store
+Thumbs.db
